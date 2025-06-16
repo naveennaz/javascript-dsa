@@ -4,20 +4,38 @@
  * Created Date: Wednesday, June 4th 2025, 11:41:41 am
  * Author: Naveen Nazemutheen
  * -----
- * Last Modified: Tue Jun 10 2025
+ * Last Modified: Mon Jun 16 2025
  * Modified By: Naveen Nazemutheen
  * -----
  * Copyright (c) 2025 Artificial Intelligence Center Limited
  * ------------------------------------
  */
 
-import { climbStairs } from "./leet-code/climb-stairs/sum-method"
-const runClimbStairsSumMethod = async () => {
-    const n: number = 5
-    const res: number = climbStairs(n)
+import { majorityElement } from "./leet-code/majority-element/majority-element-with-map"
+const runMajorityElementWithMap = async () => {
+    const nums: number[] = [3, 2, 3]
+    const res: number = majorityElement(nums)
     console.log(res)
 }
-runClimbStairsSumMethod()
+runMajorityElementWithMap()
+
+// import { reduce } from "./leet-code/array-reduce-trannformation/without-In-built-reduce"
+// const runArrayReduceTransformation = async () => {
+//     const nums: number[] = [1, 2, 3, 4]
+//     const fn: (accum: number, curr: number) => number = (accum, curr) => accum + curr
+//     const init: number = 0
+//     const res: number = reduce(nums, fn, init)
+//     console.log(res)
+// }
+// runArrayReduceTransformation()
+
+// import { climbStairs } from "./leet-code/climb-stairs/sum-method"
+// const runClimbStairsSumMethod = async () => {
+//     const n: number = 5
+//     const res: number = climbStairs(n)
+//     console.log(res)
+// }
+// runClimbStairsSumMethod()
 
 // import { mySqrt } from "./leet-code/sqrt/binary-method"
 // const runSqrtBinaryMethod = async () => {
