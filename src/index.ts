@@ -4,20 +4,45 @@
  * Created Date: Wednesday, June 4th 2025, 11:41:41 am
  * Author: Naveen Nazemutheen
  * -----
- * Last Modified: Mon Jun 16 2025
+ * Last Modified: Tue Jun 17 2025
  * Modified By: Naveen Nazemutheen
  * -----
  * Copyright (c) 2025 Artificial Intelligence Center Limited
  * ------------------------------------
  */
 
-import { majorityElement } from "./leet-code/majority-element/majority-element-with-map"
-const runMajorityElementWithMap = async () => {
-    const nums: number[] = [3, 2, 3]
-    const res: number = majorityElement(nums)
+import { maxProfit } from "./leet-code/max-profit/max-profit-with-two-pointers"
+const runMaxProfitWithTwoPointers = async () => {
+    const prices: number[] = [7, 1, 5, 3, 6, 4]
+    const res: number = maxProfit(prices)
     console.log(res)
 }
-runMajorityElementWithMap()
+runMaxProfitWithTwoPointers()
+
+// import { maxProfit } from "./leet-code/max-profit/max-profit-with-for-loop"
+// const runMaxProfitWithMap = async () => {
+//     const prices: number[] = [7, 1, 5, 3, 6, 4]
+//     const res: number = maxProfit(prices)
+//     console.log(res)
+// }
+// runMaxProfitWithMap()
+
+// import { rotate } from "./leet-code/rotate-array/rotate-array"
+// const runRotateArray = async () => {
+//     const nums: number[] = [1, 2, 3, 4, 5, 6, 7]
+//     const k: number = 3
+//     rotate(nums, k)
+//     console.log(nums)
+// }
+// runRotateArray()
+
+// import { majorityElement } from "./leet-code/majority-element/majority-element-with-map"
+// const runMajorityElementWithMap = async () => {
+//     const nums: number[] = [3, 2, 3]
+//     const res: number = majorityElement(nums)
+//     console.log(res)
+// }
+// runMajorityElementWithMap()
 
 // import { reduce } from "./leet-code/array-reduce-trannformation/without-In-built-reduce"
 // const runArrayReduceTransformation = async () => {
